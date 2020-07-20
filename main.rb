@@ -17,4 +17,6 @@ require './Turn.rb'
 
 
 # p2 = Turn.new(p2)
-# p2.new
+# p2.start
+
+Game.new()

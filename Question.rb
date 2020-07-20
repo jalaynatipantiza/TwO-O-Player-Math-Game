@@ -6,5 +6,6 @@ class Question
     num2 = rand(21)
     @question = "What does #{num1} plus #{num2} equal?"
     @answer = num1 + num2
+    
   end 
 end

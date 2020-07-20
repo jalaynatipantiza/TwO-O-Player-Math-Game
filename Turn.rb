@@ -6,7 +6,8 @@ class Turn
     @player = player
   end
 
-  def new
+  def start
+    puts
     puts "----NEW TURN----"
     print "#{@player.name}: "
     question = Question.new 
@@ -18,6 +19,7 @@ class Turn
       puts "Good job pal, you are correct!"
     else 
       puts "Seriously? No."
+      @player.lose_life
     end
   end
 end
