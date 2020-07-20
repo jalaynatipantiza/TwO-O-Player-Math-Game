@@ -8,6 +8,7 @@ class Game
   p2 = Player.new('Player2')
   puts 
   puts "Welcome to TwO-O-Player Math Game!!"
+  puts "You've got three lives, calculate wisely!"
   puts 
   player1_turn = Turn.new(p1)
   player2_turn = Turn.new(p2)
